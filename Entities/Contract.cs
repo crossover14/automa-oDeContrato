@@ -17,7 +17,8 @@ namespace automaçãoDeContrato.Entities
             TotalValue = totalValue;
             Installments = new List<Installment>();
         }
-        public void AddInstallment ( Installment installment)
+
+        public void AddInstallment(Installment installment)
         {
             Installments.Add(installment);
         }
